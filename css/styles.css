@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: linear-gradient(to right, #75AADB, #FFFFFF, #f9dc03a0, #FFFFFF, #75AADB);
+    color: #000000;
+    text-align: center;
+    padding: 1em;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo personalizado para la sección de tradición */
+#tradicion {
+    padding: 4em 0;
+    text-align: center;
+}
+
+#tradicion h2 {
+    color: #e64a19;
+}
+
+#tradicion p {
+    color: #555;
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+
+#tradicion img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5em;
+}
+
+#tradicion .texto-argentino {
+    font-style: italic;
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Agregamos algunos estilos personalizados para mejorar la presentación */
+#origen-asado {
+    padding: 4em 0;
+    text-align: center;
+}
+
+#origen-asado img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#origen-asado h2 {
+    color: #e64a19;
+}
+
+#origen-asado p {
+    font-style: italic;
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Agregamos algunos estilos personalizados para mejorar la presentación */
+#categorias {
+    padding: 4em 0;
+    text-align: center;
+}
+
+.categoria {
+    margin-bottom: 4em;
+}
+
+.categoria img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.receta-lista {
+    list-style: none;
+    padding: 0;
+}
+
+.receta-lista li {
+    margin-bottom: 1em;
+}
+
+.receta-lista a {
+    color: #007bff; /* Cambia el color del enlace según tus preferencias */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.receta-lista a:hover {
+    text-decoration: underline; /* Cambia el estilo al pasar el ratón sobre el enlace */
+}
+
